@@ -2,7 +2,7 @@ import express from 'express'
 import connectDB from './db/connectdb.js'
 const app = express()
 const port = process.env.PORT || '3000'
-const DATABASE_URL = process.env.DATABASE_URL || 'mongodb://0.0.0.0:27017'
+const DATABASE_URL = process.env.DATABASE_URL || 'mongodb://127.0.0.1:27017/yourdatabase'
 import web from './routes/web.js'
 
 
